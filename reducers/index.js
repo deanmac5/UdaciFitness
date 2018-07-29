@@ -1,4 +1,4 @@
-import { RECEIVE_ENTRIES, ADD_ENTRY } from '.../actions';
+import { RECEIVE_ENTRIES, ADD_ENTRY } from '../actions';
 import { bindActionCreators } from '../node_modules/redux';
 
 function entries (state = {}, action) {
